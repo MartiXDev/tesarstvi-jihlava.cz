@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="MartiX" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.16 90.71">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #e6e6e6;
+      }
+
+      .cls-3 {
+        font-family: Conthrax-SemiBold, Conthrax;
+        font-size: 72px;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #005eb8;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(2.06 85.15)"><tspan class="cls-2" x="0" y="0">Ma</tspan><tspan class="cls-1" x="142.77" y="0">r</tspan><tspan class="cls-2" x="188.42" y="0">ti</tspan><tspan class="cls-4" x="243.14" y="0">X</tspan></text>
+  <g id="arrow">
+    <path class="cls-5" d="M333.51,14.85c1.03-1.03,1.51-.79,1.51.76v9.81c0,1.55-.49,2.86-1.52,3.89l-7.1,7.08c-1.03,1.03-1.51.68-1.51-.86l-.2-9.37c0-1.55.49-2.75,1.52-3.78l7.3-7.52Z"/>
+    <path class="cls-5" d="M320.1,20.92c1.44,0,1.61.5.53,1.58l-6.57,6.74c-1.08,1.08-2.33,1.66-3.77,1.66h-9.89c-1.44,0-1.53-.58-.45-1.66l6.52-6.74c1.08-1.08,2.26-1.58,3.69-1.58h9.94Z"/>
+    <path class="cls-5" d="M333.78,6.82c1.46,0,1.63.51.53,1.61l-6.7,6.94c-1.1,1.1-2.36,1.68-3.82,1.68h-10.02c-1.46,0-1.56-.58-.46-1.68l6.63-6.94c1.1-1.1,2.29-1.61,3.75-1.61h10.09Z"/>
+    <path class="cls-5" d="M313.92,6.82c1.46,0,1.63.51.53,1.61l-6.7,6.94c-1.1,1.1-2.36,1.68-3.82,1.68h-10.02c-1.46,0-1.56-.58-.46-1.68l6.63-6.94c1.1-1.1,2.29-1.61,3.75-1.61h10.09Z"/>
+  </g>
+</svg>
