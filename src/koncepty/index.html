@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tesarstvi Jihlava - koncepty noveho webu</title>
+  <title>Tesařství Jihlava – srovnání šesti konceptů webu</title>
   <meta
     name="description"
-    content="Rozcestnik peti konceptu noveho webu Tesarstvi Jihlava. Porovnejte vizualni smery, obsahovou kostru a zvolte finalni podobu." />
+    content="Rozcestník šesti konceptů nového webu Tesařství Jihlava. Prvních pět řeší úvodní stránku, koncept 04 drží historický produkční základ a koncept 06 ukazuje obrazovou referenci projektu." />
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,148 +15,442 @@
     <div class="hero__backdrop" aria-hidden="true"></div>
     <div class="container hero__inner">
       <div class="hero__copy">
-        <p class="eyebrow">V2 moderni web</p>
-        <h1>Pet smeru pro novy web <span>Tesarstvi Jihlava</span></h1>
+        <p class="eyebrow">Rychlé srovnání konceptů</p>
+        <h1>Tesařství Jihlava <span>v šesti různých podobách.</span></h1>
         <p class="lead">
-          Tato faze prinasi pet nakodovanych konceptu homepage se stejnou obsahovou kostrou.
-          Cilem je porovnat tonalitu, vizualni atmosferu, citelnost a vhodnost pro dalsi produkcni
-          dopracovani.
+          Prvních pět konceptů porovnává různé směry pro úvodní stránku. Šestý koncept je obrazová reference
+          konkrétní realizace, která otevírá budoucí galerii projektů. Cílem není vybrat „nejhezčí“
+          variantu, ale rychle pochopit, kdy který směr funguje nejlépe.
         </p>
         <div class="hero__actions">
-          <a class="button button--primary" href="#koncepty">Projit koncepty</a>
-          <a class="button button--secondary" href="04-material-a-reference/">Otevrit vybrany smer</a>
+          <a class="button button--primary" href="#srovnani">Porovnat všech 6 konceptů</a>
+        </div>
+        <div class="hero__shortcuts" aria-label="Rychlé cesty ke dvěma referenčním konceptům">
+          <a class="shortcut" href="04-material-a-reference/">
+            <span class="shortcut__index">04</span>
+            <span>
+              <strong>Historický produkční základ</strong>
+              <small>nejčitelnější referenční bod pro ostrý provoz</small>
+            </span>
+          </a>
+          <a class="shortcut" href="06-chata-vetrny-jenikov/">
+            <span class="shortcut__index">06</span>
+            <span>
+              <strong>Obrazová reference</strong>
+              <small>fotograficky vedený modul pro realizace a galerii</small>
+            </span>
+          </a>
         </div>
       </div>
-      <div class="hero__brand card">
-        <img src="shared/img/tesarstvi-jihlava.svg" alt="Logo Tesarstvi Jihlava">
-        <dl class="brand-meta">
+
+      <div class="hero__stage">
+        <figure class="hero__media">
+          <img
+            src="shared/gallery/projekty/2024/chata-vetrny-jenikov/uvod/DJI_0460.jpg"
+            alt="Fotografie chaty ve Větrném Jeníkově použitá jako obrazová reference pro koncept 06."
+            fetchpriority="high"
+          >
+        </figure>
+
+        <aside class="hero__map" aria-label="Mapa celé sady konceptů">
+          <p class="hero__map-label">Mapa rozhodnutí</p>
+          <ol class="hero__track">
+            <li>
+              <span>01–03</span>
+              <div>
+                <strong>Tonální směry</strong>
+                <p>Hledají správnou náladu značky: klidný autorský směr, světlou přesnost nebo větší drama.</p>
+              </div>
+            </li>
+            <li class="hero__track-item--baseline">
+              <span>04</span>
+              <div>
+                <strong>Historický produkční základ</strong>
+                <p>Nejčitelnější a nejblíž produkční jistotě. Vhodný jako pevný referenční bod celé sady.</p>
+              </div>
+            </li>
+            <li>
+              <span>05</span>
+              <div>
+                <strong>Pohybový směr</strong>
+                <p>Ukazuje, kam až může jít vrstvení, rytmus a pohyb bez ztráty čitelnosti.</p>
+              </div>
+            </li>
+            <li class="hero__track-item--reference">
+              <span>06</span>
+              <div>
+                <strong>Obrazová reference</strong>
+                <p>Reálné fotografie jako hlavní argument místo delšího textu. Není to další úvodní stránka.</p>
+              </div>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--overview">
+      <div class="container overview">
+        <div class="section-heading">
+          <p class="section-label">Jak sadu číst</p>
+          <h2>Rozdíl není v datech, ale v poměru atmosféry, jistoty a práce s fotografií.</h2>
+          <p class="section-copy">
+            Všechny varianty drží stejnou firmu, stejné kontaktní údaje a stejný obsahový základ.
+            Mění se hlavně to, co má rozhodnout v prvních sekundách – tón značky, rychlost orientace
+            nebo síla reálných referencí.
+          </p>
+        </div>
+
+        <div class="overview__bands" aria-label="Shrnutí čtyř rozhodovacích skupin">
+          <article class="band">
+            <p class="band__index">01–03</p>
+            <h3>Nálada značky</h3>
+            <p>Pro chvíli, kdy se ještě hledá správný tón značky před finální produkcí.</p>
+          </article>
+          <article class="band band--baseline">
+            <p class="band__index">04</p>
+            <h3>Produkční jistota</h3>
+            <p>Nejpevnější referenční bod pro služby, reference, kontakty a další rozšíření.</p>
+          </article>
+          <article class="band">
+            <p class="band__index">05</p>
+            <h3>Pohybový směr</h3>
+            <p>Nejživější prezentace pro situaci, kdy má web působit současně a energicky.</p>
+          </article>
+          <article class="band band--reference">
+            <p class="band__index">06</p>
+            <h3>Obrazová reference</h3>
+            <p>Samostatný fotografický modul pro realizace a budoucí galerii projektů.</p>
+          </article>
+        </div>
+
+        <dl class="decision-grid">
           <div>
-            <dt>Email</dt>
-            <dd><a href="mailto:info@tesarstvi-jihlava.cz">info@tesarstvi-jihlava.cz</a></dd>
+            <dt>Nejrychlejší orientace</dt>
+            <dd>02 a 04</dd>
+          </div>
+          <div>
+            <dt>Největší emoce</dt>
+            <dd>01, 03 a 05</dd>
+          </div>
+          <div>
+            <dt>Nejnižší produkční riziko</dt>
+            <dd>04, hned za ním 02</dd>
+          </div>
+          <div>
+            <dt>Nejvíc prostoru pro fotky</dt>
+            <dd>06</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section section--comparison" id="koncepty">
+      <div class="container" id="srovnani">
+        <div class="section-heading section-heading--wide">
+          <p class="section-label">Detailní srovnání</p>
+          <h2>Každý koncept má jiný hlavní argument, jiný ideální moment použití a jinou míru produkční jistoty.</h2>
+        </div>
+
+        <div class="compare-head" aria-hidden="true">
+          <span>Směr</span>
+          <span>Kde vyniká</span>
+          <span>Nejlépe funguje pro</span>
+          <span>Poznámka</span>
+          <span>Otevřít</span>
+        </div>
+
+        <ol class="concept-list">
+          <li class="concept-row concept-row--01">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Úvodní stránka / tonální směr</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">01</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Autorský</span>
+                    <span class="pill">Tmavší tón</span>
+                  </div>
+                  <h3>Řemeslná autorská prezentace</h3>
+                  <p class="concept-row__text">Klidný a kultivovaný směr, který staví důvěru na materiálu, typografii a detailu.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Prémiovým dojmem bez okázalosti a silným důrazem na poctivé řemeslo.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Klienty, kteří chtějí klidnou a architektonicky citlivou prezentaci firmy.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Stojí hlavně na typografii a rytmu, ne na efektních prvcích.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="01-remeslna-editorial-premium/">Otevřít 01</a>
+            </div>
+          </li>
+
+          <li class="concept-row concept-row--02">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Úvodní stránka / tonální směr</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">02</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Světlý</span>
+                    <span class="pill">Přesný</span>
+                  </div>
+                  <h3>Architektonická světlá přesnost</h3>
+                  <p class="concept-row__text">Nejčistší a nejtechničtější čtení značky s důrazem na mřížku, přehled a rychlou orientaci.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Přehledností, čistou strukturou a nízkým rizikem nedorozumění.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Zakázky, kde má web rychle vysvětlit rozsah služeb a návaznost prací.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Racionálnější než emocionální směr, dobře snáší širší objem obsahu.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="02-architektonicka-svetla-presnost/">Otevřít 02</a>
+            </div>
+          </li>
+
+          <li class="concept-row concept-row--03">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Úvodní stránka / tonální směr</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">03</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Kinematický</span>
+                    <span class="pill">Kontrastní</span>
+                  </div>
+                  <h3>Tmavá kinematická atmosféra</h3>
+                  <p class="concept-row__text">Dramatičtější směr s výrazným kontrastem a silnějším pocitem značky hned na první obrazovce.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Atmosférou, napětím a pocitem prémiové práce s detailem.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Situace, kdy má hrát roli emoce, výrazný první kontakt a silnější styl.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Vyšší kontrast je potřeba držet konzistentně v celé obsahové vrstvě.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="03-tmava-kinematicka-atmosfera/">Otevřít 03</a>
+            </div>
+          </li>
+
+          <li class="concept-row concept-row--04 concept-row--featured">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Historický produkční základ</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">04</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Materiál</span>
+                    <span class="pill">Reference</span>
+                  </div>
+                  <h3>Materiál a reference</h3>
+                  <p class="concept-row__text">Teplý, nejčitelnější a nejpraktičtější základ. Dobře nese služby, reference i kontaktní fakta bez zbytečného rizika.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Jistotou, čitelností a snadnou rozšiřitelností obsahu.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Rychlé nasazení do provozu nebo jako výchozí bod pro finální produkci.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Nejméně experimentální směr; právě proto je vhodný jako pevný referenční bod.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="04-material-a-reference/">Otevřít 04</a>
+            </div>
+          </li>
+
+          <li class="concept-row concept-row--05">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Úvodní stránka / pohybový směr</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">05</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Pohyb</span>
+                    <span class="pill">Prezentace</span>
+                  </div>
+                  <h3>Pohybově vedená prezentace</h3>
+                  <p class="concept-row__text">Nejživější koncept s důrazem na pohyb, vrstvení a modernější digitální energii.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Pocitem současného prezentačního webu a silnějším rytmem celé stránky.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Situace, kdy má web působit odvážněji, moderněji a vizuálně výrazněji.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Nejvyšší technická náročnost a nejcitlivější směr na kvalitu provedení.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="05-motion-first-showcase/">Otevřít 05</a>
+            </div>
+          </li>
+
+          <li class="concept-row concept-row--06 concept-row--featured">
+            <div class="concept-row__summary">
+              <p class="concept-row__status">Obrazová reference / galerie</p>
+              <div class="concept-row__title">
+                <p class="concept-row__index">06</p>
+                <div>
+                  <div class="concept-row__labels">
+                    <span class="pill">Fotografie</span>
+                    <span class="pill">Realizace</span>
+                  </div>
+                  <h3>Chata ve Větrném Jeníkově</h3>
+                  <p class="concept-row__text">Samostatná fotografická reference konkrétní realizace, která otevírá budoucí galerii projektů.</p>
+                </div>
+              </div>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Kde vyniká</p>
+              <p>Reálnými fotografiemi a čtením projektu od celku až k detailu.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Nejlépe funguje pro</p>
+              <p>Reference, kde má rozhodovat viditelný výsledek víc než delší text.</p>
+            </div>
+            <div class="concept-row__fact">
+              <p class="fact-label">Poznámka</p>
+              <p>Není to další směr pro úvodní stránku; je to obrazový modul, který může žít vedle finálního webu.</p>
+            </div>
+            <div class="concept-row__action">
+              <a class="text-link" href="06-chata-vetrny-jenikov/">Otevřít 06</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--anchors">
+      <div class="container anchor-layout">
+        <div class="anchor-intro">
+          <p class="section-label">Dvě rozhodovací kotvy</p>
+          <h2>04 drží nejbezpečnější produkční základ, 06 ukazuje proč má smysl myslet i na samostatné reference.</h2>
+          <p class="section-copy">
+            Rozcestník nemá tlačit k jedinému vítězi. Proto zůstávají viditelně oddělené dvě kotvy: koncept 04 jako
+            osvědčený základ pro ostrý web a koncept 06 jako obrazový důkaz práce, který může běžet vedle něj.
+          </p>
+        </div>
+
+        <div class="anchor-panels">
+          <article class="anchor anchor--baseline">
+            <p class="anchor__label">Koncept 04 / historický produkční základ</p>
+            <h3>Materiál a reference</h3>
+            <p>
+              Pokud má být první krok hlavně čitelný, důvěryhodný a snadno rozšiřitelný, dává 04 nejpevnější základ.
+              Právě proto je na rozcestníku stále vidět jako referenční bod celé sady.
+            </p>
+            <ul class="anchor__list">
+              <li>nejnižší produkční riziko</li>
+              <li>dobře nese služby, reference i kontaktní fakta</li>
+              <li>vhodný jako výchozí větev pro finální web</li>
+            </ul>
+            <a class="button button--secondary" href="04-material-a-reference/">Otevřít koncept 04</a>
+          </article>
+
+          <article class="anchor anchor--reference">
+            <figure class="anchor__media">
+              <img
+                src="shared/gallery/projekty/2024/chata-vetrny-jenikov/galerie/IMG_8595-HDR.jpg"
+                alt="Interiér chaty ve Větrném Jeníkově, který je součástí fotografické reference konceptu 06."
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <div class="anchor__content">
+              <p class="anchor__label">Koncept 06 / obrazová reference</p>
+              <h3>Chata ve Větrném Jeníkově</h3>
+              <p>
+                Pokud mají rozhodovat reálné realizace, je to nejsilnější důkaz v celé sadě. Neřeší další úvodní stránku,
+                ale vrstvu reference a inspirace, která může výrazně posílit důvěryhodnost finálního webu.
+              </p>
+              <ul class="anchor__list">
+                <li>fotografie nesou hlavní argument samy</li>
+                <li>přirozený základ pro galerii dalších projektů</li>
+                <li>vhodné pro situace, kdy má práce mluvit obrazem</li>
+              </ul>
+              <a class="button button--secondary button--secondary-dark" href="06-chata-vetrny-jenikov/">Otevřít koncept 06</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--meta">
+      <div class="container meta-strip">
+        <div class="meta-strip__copy">
+          <p class="section-label">Shodná firemní data</p>
+          <h2>Jedna firma, šest interpretací stejného obsahu.</h2>
+          <p class="section-copy">
+            Kontakty, identifikace i rozsah služeb zůstávají stejné. Díky tomu je srovnání férové a dá se rozhodovat
+            podle dojmu, hierarchie, vhodnosti použití i míry produkční jistoty.
+          </p>
+        </div>
+        <dl class="meta-strip__facts">
+          <div>
+            <dt>Vlastník</dt>
+            <dd>Štěpán Kvasnička</dd>
+          </div>
+          <div>
+            <dt>IČO</dt>
+            <dd>01992201</dd>
+          </div>
+          <div>
+            <dt>ARES</dt>
+            <dd><a href="https://ares.gov.cz/ekonomicke-subjekty?ico=01992201">Ověřit subjekt</a></dd>
+          </div>
+          <div>
+            <dt>DIČ</dt>
+            <dd>CZ9408064710</dd>
           </div>
           <div>
             <dt>Telefon</dt>
             <dd><a href="tel:+420603176612">+420 603 176 612</a></dd>
           </div>
           <div>
-            <dt>ARES</dt>
-            <dd><a href="https://ares.gov.cz/ekonomicke-subjekty?ico=01992201">Overit subjekt</a></dd>
+            <dt>E-mail</dt>
+            <dd><a href="mailto:info@tesarstvi-jihlava.cz">info@tesarstvi-jihlava.cz</a></dd>
           </div>
-        </dl>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="container section__grid">
-        <article class="card">
-          <p class="section-label">Sdilene parametry</p>
-          <h2>Vsechny varianty drzi stejny obsahovy zaklad</h2>
-          <ul class="feature-list">
-            <li>Hero, sluzby, duvody pro spolupraci, pristup k zakazce, kontakt a zapati.</li>
-            <li>Pouze cesky obsah a firemni udaje prevzate z puvodniho webu.</li>
-            <li>SVG identita Tesarstvi Jihlava a MartiX kredit v zapati kazdeho konceptu.</li>
-          </ul>
-        </article>
-        <article class="card">
-          <p class="section-label">Vyber finalniho smeru</p>
-          <h2>Na co se pri porovnani zamerit</h2>
-          <ul class="feature-list">
-            <li>Jak presvedcive pusobi hero a celkova tonalita znacky.</li>
-            <li>Jak dobre funguje hierarchie textu a CTA na mobilu.</li>
-            <li>Jak prirozene je zapojene firemni info, ARES a footer kredit MartiX.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section--tight" id="koncepty">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-label">Konceptova sada</p>
-          <h2>Rozdilne vizualni svety, stejny obsahovy zaklad</h2>
-        </div>
-
-        <div class="concept-grid">
-          <article class="concept-card concept-card--dark">
-            <p class="concept-card__index">01</p>
-            <h3>Remeslna editorial premium</h3>
-            <p>Tmavy a klidny smer s premiovou typografii, hrejivymi tony a silnym durazem na material.</p>
-            <ul>
-              <li>tmavy editorial</li>
-              <li>premiovy dojem</li>
-              <li>jemna pohybova vrstva</li>
-            </ul>
-            <a href="01-remeslna-editorial-premium/">Otevrit koncept</a>
-          </article>
-
-          <article class="concept-card">
-            <p class="concept-card__index">02</p>
-            <h3>Architektonicka svetla presnost</h3>
-            <p>Svetly, vzdusny a presny layout pro maximalni citelnost a technicky kultivovany dojem.</p>
-            <ul>
-              <li>svetla kompozice</li>
-              <li>mrizka a presnost</li>
-              <li>nizke riziko pri produkci</li>
-            </ul>
-            <a href="02-architektonicka-svetla-presnost/">Otevrit koncept</a>
-          </article>
-
-          <article class="concept-card concept-card--dark">
-            <p class="concept-card__index">03</p>
-            <h3>Tmava kinematicka atmosfera</h3>
-            <p>Silnejsi drama, svetelne akcenty a scenicke prechody pro emocnejsi uvod do znacky.</p>
-            <ul>
-              <li>filmova atmosfera</li>
-              <li>vyssi kontrast</li>
-              <li>silny prvni dojem</li>
-            </ul>
-            <a href="03-tmava-kinematicka-atmosfera/">Otevrit koncept</a>
-          </article>
-
-          <article class="concept-card">
-            <p class="concept-card__index">04</p>
-            <h3>Material a reference</h3>
-            <p>Teplejsi, remeslnejsi smer staveny na poctivosti materialu a prehledne prezentaci typu zakazek.</p>
-            <ul>
-              <li>materialovy charakter</li>
-              <li>duveryhodnost</li>
-              <li>dobry zaklad pro obsah</li>
-            </ul>
-            <a href="04-material-a-reference/">Otevrit koncept</a>
-          </article>
-
-          <article class="concept-card concept-card--accent">
-            <p class="concept-card__index">05</p>
-            <h3>Motion first showcase</h3>
-            <p>Nejodvaznejsi smer se silnejsi vrstvou pohybu, vrstvenim a modernim feelingem.</p>
-            <ul>
-              <li>nejvyssi mira pohybu</li>
-              <li>showcase potencial</li>
-              <li>nejvyssi technicka narocnost</li>
-            </ul>
-            <a href="05-motion-first-showcase/">Otevrit koncept</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container contact-strip">
-        <div>
-          <p class="section-label">Potvrzene firemni udaje</p>
-          <h2>Jedna firma, pet vizualnich interpretaci</h2>
-          <p>
-            Vsechny koncepty pracuji se stejnymi kontaktnimi a identifikacnimi udaji, aby se dalo porovnavat
-            hlavne vizualni reseni, nikoliv jina data nebo jina struktura obsahu.
-          </p>
-        </div>
-        <dl class="contact-strip__meta">
-          <div><dt>Vlastnik</dt><dd>Stepan Kvasnicka</dd></div>
-          <div><dt>ICO</dt><dd>01992201</dd></div>
-          <div><dt>DIC</dt><dd>CZ9408064710</dd></div>
-          <div><dt>Adresa</dt><dd>Telecska 2746/96, 586 01 Jihlava</dd></div>
+          <div>
+            <dt>Adresa</dt>
+            <dd>Telečská 2746/96, 586 01 Jihlava</dd>
+          </div>
         </dl>
       </div>
     </section>
@@ -165,16 +459,15 @@
   <footer class="site-footer">
     <div class="container site-footer__inner">
       <div>
-        <p class="site-footer__title">Tesarstvi Jihlava - konceptova sada V2</p>
-        <p>Prvni faze noveho webu pripravena v cestine pro pozdejsi vyber finalniho smeru.</p>
+        <p class="site-footer__title">Tesařství Jihlava – rozcestník šesti konceptů</p>
+        <p>První fáze nového webu připravená v češtině pro výběr finálního směru i budoucí práci s referencemi.</p>
       </div>
       <div class="site-footer__links">
-        <a href="04-material-a-reference/">Vybrany smer 04</a>
-        <a href="#koncepty">Srovnani konceptu</a>
+        <a href="#srovnani">Srovnání konceptů</a>
+        <a href="04-material-a-reference/">Historický produkční základ 04</a>
+        <a href="06-chata-vetrny-jenikov/">Obrazová reference 06</a>
       </div>
     </div>
   </footer>
 </body>
 </html>
-
-

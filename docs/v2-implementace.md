@@ -115,18 +115,49 @@ Po vytvoreni peti konceptu nasledovalo:
 
 ## Aktualni vystupy v repozitari
 
-Aktualne jsou v repozitari pripraveny tyto vystupy prvni faze:
+Aktualne jsou v repozitari pripraveny tyto vystupy prvni faze a navazujiciho foto konceptu:
 
-- `src\index.html` - rozcestnik vsech peti konceptu
-- `src\styles.css` - stylova vrstva rozcestniku
-- `src\koncepty\index.html` - pomocne presmerovani na rozcestnik
+- `src\index.html` - finalni homepage podle vybraneho smeru `04-material-a-reference`
+- `src\styles.css` - stylova vrstva finalni homepage
+- `src\koncepty\index.html` - samostatne publikovatelny hub vsech sesti konceptu
 - `src\koncepty\01-remeslna-editorial-premium\` - tmavy editorial koncept
 - `src\koncepty\02-architektonicka-svetla-presnost\` - svetly, mrizkovy koncept
 - `src\koncepty\03-tmava-kinematicka-atmosfera\` - tmavy atmosfericky koncept
 - `src\koncepty\04-material-a-reference\` - teply materialovy koncept
 - `src\koncepty\05-motion-first-showcase\` - nejdynamictejsi koncept s lehkou JS vrstvou
+- `src\koncepty\06-chata-vetrny-jenikov\` - foto-orientovana reference s realnymi snimky projektu
 - `src\koncepty\shared\img\` - lokalni kopie MartiX log pro footer kredity
+- `src\koncepty\shared\gallery\` - publikovatelna vrstva pro projektove galerie a foto koncepty
 
 Kazdy koncept obsahuje vlastni HTML a CSS, pouziva firemni udaje Tesarstvi Jihlava, odkaz na ARES a footer s MartiX kreditem.
 
 Rozhodovaci brana je timto uzavrena a dalsi implementace v `src\` ma vychazet z konceptu `04-material-a-reference`.
+
+## Galerie realizaci a 6. koncept - staticky zaklad
+
+Novy foto koncept vznikl jako samostatna slozka `src\koncepty\06-*`, ale projektove fotografie nejsou ulozene primo uvnitr konkretniho konceptu. Proto je zavedena sdilena publikovatelna vrstva `src\koncepty\shared\gallery\`, kterou je mozne pouzit jak pro 6. koncept, tak pozdeji i pro seznam realizaci nebo detail projektu bez duplikovani assetu.
+
+### Rozdeleni odpovednosti
+
+- `src\gallery\rok\slug\` - zdrojove a plnorozlisene fotografie v repozitari
+- `src\koncepty\shared\gallery\projekty\rok\slug\` - webove optimalizovane assety a metadata, ktere uz patri do publikovatelneho baliku `src\koncepty`
+- `src\koncepty\06-*` - samotna foto stranka nebo koncept, ktery na assety odkazuje jen pres `..\shared\gallery\`
+
+### Minimalni struktura jednoho projektu
+
+- `projekt.json` - ceska metadata projektu, poradi obrazku a textove podklady
+- `uvod\` - siroke exporty pro uvod a klicove rezime projektu
+- `nahledy\` - cover a mensi obrazky pro grid nebo vyber projektu
+- `galerie\` - detailni obrazky pro projektovou stranku nebo lightbox
+
+### Pravidla pro dalsi realizaci
+
+- zadny odkaz v HTML, CSS ani JS z `src\koncepty\` nesmi smerovat do `..\gallery\`
+- z `src\gallery\` se do `src\koncepty\shared\gallery\` kopiruji jen kuratorsky vybrane a webove optimalizovane exporty
+- slugy a nazvy souboru drzet bez diakritiky a stabilni v case
+- alt texty, nazvy projektu a kratke popisy zustavaji v cestine v `projekt.json`
+- budoucni seznam realizaci muze stavet nad `src\koncepty\shared\gallery\projekty.json` bez nutnosti kroku sestaveni
+
+### Prvni pripraveny projekt
+
+Pro `src\gallery\2024\chata-vetrny-jenikov\` je zalozena publikovatelna kostra v `src\koncepty\shared\gallery\projekty\2024\chata-vetrny-jenikov\`. Vyber fotografii, webove exporty i novy koncept `src\koncepty\06-chata-vetrny-jenikov\` jsou jiz pripravene jako prvni realny zaklad budouci galerie realizaci.
