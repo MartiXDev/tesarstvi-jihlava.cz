@@ -1,0 +1,88 @@
+{
+  "verze": 1,
+  "rok": 2024,
+  "slug": "chata-vetrny-jenikov",
+  "nazev": "Chata Větrný Jeníkov",
+  "lokalita": "Větrný Jeníkov",
+  "stav": "priprava",
+  "popis": "Prvni pripraveny projekt pro foto koncept a budouci galerii realizaci.",
+  "kategorie": [
+    "strecha",
+    "drevena konstrukce",
+    "realizace"
+  ],
+  "vyberZdrojovychFotografii": {
+    "hero": [
+      "DJI_0460.jpg",
+      "DJI_0459.jpg",
+      "IMG_8722-HDR.jpg"
+    ],
+    "celky": [
+      "DJI_0459.jpg",
+      "DJI_0460.jpg",
+      "DJI_0462-HDR.jpg",
+      "IMG_8722-HDR.jpg"
+    ],
+    "interier": [
+      "IMG_8595-HDR.jpg",
+      "IMG_8601-HDR.jpg",
+      "IMG_8610-HDR.jpg",
+      "IMG_8658-HDR.jpg",
+      "IMG_8673-HDR.jpg"
+    ],
+    "detaily": [
+      "IMG_8628-HDR.jpg",
+      "IMG_8637-HDR.jpg",
+      "IMG_8704-HDR.jpg",
+      "IMG_8710-HDR.jpg"
+    ],
+    "zalohy": [
+      "DJI_0458.jpg",
+      "IMG_8598-HDR.jpg",
+      "IMG_8619-HDR.jpg",
+      "IMG_8655-HDR.jpg",
+      "IMG_8679-HDR.jpg",
+      "IMG_8707-HDR.jpg"
+    ]
+  },
+  "soubory": {
+    "hlavniNahled": "nahledy/DJI_0460.jpg",
+    "uvod": [
+      "uvod/DJI_0459.jpg",
+      "uvod/DJI_0460.jpg",
+      "uvod/DJI_0462-HDR.jpg",
+      "uvod/IMG_8722-HDR.jpg"
+    ],
+    "galerie": [
+      "galerie/DJI_0459.jpg",
+      "galerie/DJI_0460.jpg",
+      "galerie/DJI_0462-HDR.jpg",
+      "galerie/IMG_8722-HDR.jpg",
+      "galerie/IMG_8595-HDR.jpg",
+      "galerie/IMG_8601-HDR.jpg",
+      "galerie/IMG_8610-HDR.jpg",
+      "galerie/IMG_8658-HDR.jpg",
+      "galerie/IMG_8673-HDR.jpg",
+      "galerie/IMG_8628-HDR.jpg",
+      "galerie/IMG_8637-HDR.jpg",
+      "galerie/IMG_8704-HDR.jpg",
+      "galerie/IMG_8710-HDR.jpg"
+    ],
+    "nahledy": [
+      "nahledy/DJI_0459.jpg",
+      "nahledy/DJI_0460.jpg",
+      "nahledy/DJI_0462-HDR.jpg",
+      "nahledy/IMG_8722-HDR.jpg",
+      "nahledy/IMG_8595-HDR.jpg",
+      "nahledy/IMG_8601-HDR.jpg",
+      "nahledy/IMG_8610-HDR.jpg",
+      "nahledy/IMG_8658-HDR.jpg",
+      "nahledy/IMG_8673-HDR.jpg",
+      "nahledy/IMG_8628-HDR.jpg",
+      "nahledy/IMG_8637-HDR.jpg",
+      "nahledy/IMG_8704-HDR.jpg",
+      "nahledy/IMG_8710-HDR.jpg"
+    ]
+  },
+  "poznamka": "Zdrojové fotografie zůstávají ve složce src\\gallery\\2024\\chata-vetrny-jenikov\\. Publikovatelné exporty pro úvod, galerii a náhledy jsou připravené v tomto adresáři."
+}

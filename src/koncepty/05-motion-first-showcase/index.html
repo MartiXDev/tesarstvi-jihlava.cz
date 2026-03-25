@@ -8,289 +8,295 @@
   <title>Tesařství Jihlava | Dřevo, střecha a detail</title>
   <link rel="icon" href="../favicon.ico">
   <link rel="stylesheet" href="styles.css">
+  <script src="../shared/js/mobile-nav.js" defer></script>
   <script src="main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#obsah">Přejít na obsah</a>
 
   <header class="site-header">
-    <div class="site-header__panel">
+    <div class="site-header__panel" data-mobile-nav>
       <a class="brand" href="#uvod" aria-label="Tesařství Jihlava, přejít na úvod">
         <img src="../shared/img/tesarstvi-jihlava.svg" alt="Tesařství Jihlava, Stepan Kvasnicka">
       </a>
 
-      <nav class="site-nav" aria-label="Hlavní navigace">
-        <a href="#uvod">Úvod</a>
-        <a href="#sluzby">Služby</a>
-        <a href="#duvody">Proč spolupracovat</a>
-        <a href="#pristup">Přístup</a>
-        <a href="#kontakt">Kontakt</a>
-      </nav>
+      <div class="header-nav-shell">
+        <button
+          class="mobile-nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav-panel-05"
+          data-mobile-nav-toggle
+        >
+          <span class="mobile-nav-toggle__label">Menu</span>
+          <span class="mobile-nav-toggle__bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
 
-      <a class="header-cta" href="tel:+420603176612" aria-label="Zavolat Tesařství Jihlava">
-        +420 603 176 612
-      </a>
+        <div class="header-nav-panel" id="site-nav-panel-05" data-mobile-nav-panel hidden>
+          <nav class="site-nav" aria-label="Hlavní navigace">
+            <a href="#uvod" data-mobile-nav-link>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 11.5 12 5l8 6.5"></path>
+                <path d="M6.5 10.5V19h11v-8.5"></path>
+                <path d="M10 19v-4.5h4V19"></path>
+              </svg>
+              <span>Úvod</span>
+            </a>
+            <a href="#sluzby" data-mobile-nav-link>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 12 12 5l8 7"></path>
+                <path d="M6 10.5V19h12v-8.5"></path>
+                <path d="M9.5 19v-4.5h5V19"></path>
+              </svg>
+              <span>Průběh</span>
+            </a>
+            <a href="#duvody" data-mobile-nav-link>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 4 6 7v5.5c0 4.4 2.7 7.5 6 9 3.3-1.5 6-4.6 6-9V7l-6-3Z"></path>
+                <path d="m9.2 12.2 1.8 1.8 3.8-4"></path>
+              </svg>
+              <span>Důvody</span>
+            </a>
+            <a href="#pristup" data-mobile-nav-link>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="3.5" width="16" height="17" rx="2"></rect>
+                <path d="M9 3.5v4"></path>
+                <path d="M15 3.5v4"></path>
+                <path d="M8 11h8"></path>
+                <path d="M8 15h5"></path>
+              </svg>
+              <span>Postup</span>
+            </a>
+            <a href="#kontakt" data-mobile-nav-link>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="2"></rect>
+                <path d="m4 8 8 6 8-6"></path>
+              </svg>
+              <span>Kontakt</span>
+            </a>
+          </nav>
+
+          <a class="header-cta" href="tel:+420603176612" aria-label="Zavolat Tesařství Jihlava" data-mobile-nav-link>
+            +420 603 176 612
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
   <main id="obsah">
-    <section class="section-panel hero" id="uvod">
-      <div class="hero-grid">
+    <section class="hero" id="uvod">
+      <div class="hero-media" aria-hidden="true">
+        <figure class="hero-visual hero-visual--main">
+          <img src="../shared/gallery/projekty/2024/chata-vetrny-jenikov/uvod/DJI_0459.jpg" alt="">
+        </figure>
+        <figure class="hero-visual hero-visual--detail">
+          <img src="../shared/gallery/projekty/2024/chata-vetrny-jenikov/galerie/IMG_8704-HDR.jpg" alt="">
+        </figure>
+      </div>
+
+      <div class="hero-shell">
         <div class="hero-copy reveal">
           <p class="eyebrow">Tesařské, pokrývačské a klempířské práce</p>
-          <h1>Když má krov držet a&nbsp;střecha fungovat, detail nesmí být náhoda.</h1>
+          <p class="hero-brand">Tesařství Jihlava</p>
+          <h1>Dřevo, střecha a detail v jedné klidné kompozici.</h1>
           <p class="hero-text">
-            Tesařství Jihlava propojuje dřevo, krytinu i klempířské napojení do jednoho promyšleného celku.
+            Tesařství Jihlava řeší krov, střešní skladbu i finální návaznosti jako jeden celek.
             Výsledek má působit čistě, fungovat dlouhodobě a odpovídat konkrétní stavbě.
           </p>
 
           <div class="hero-actions">
             <a class="button button--primary" href="tel:+420603176612">Zavolat: +420 603 176 612</a>
-            <a class="button button--outline" href="mailto:info@tesarstvi-jihlava.cz">Napsat e-mail</a>
+            <a class="text-link" href="#sluzby">Projít průběh zakázky</a>
           </div>
 
-          <a class="text-link" href="#sluzby">Projít služby a typické zakázky</a>
-
-          <div class="meta-chips" aria-label="Základní informace">
-            <span class="meta-chip">Stepan Kvasnicka</span>
-            <span class="meta-chip">Jihlava</span>
-            <span class="meta-chip">Krov • krytina • klempířský detail</span>
-          </div>
-
-          <ul class="hero-points">
-            <li>Přímé jednání s člověkem, který zakázku řeší i na místě.</li>
-            <li>Promyšlené návaznosti mezi konstrukcí, střešním pláštěm a odvodem vody.</li>
-            <li>Řešení pro novostavby, rekonstrukce i venkovní dřevěné konstrukce.</li>
+          <ul class="hero-facts" aria-label="Základní informace">
+            <li>Stepan Kvasnicka</li>
+            <li>Jihlava a okolí</li>
+            <li>Krov · krytina · detail</li>
           </ul>
         </div>
 
-        <div class="hero-stage reveal" aria-hidden="true">
-          <article class="stage-card stage-card--primary tilt-surface" data-tilt="6">
-            <p class="stage-card__label">Nosná část</p>
-            <p class="stage-card__title">Krov a dřevěná konstrukce</p>
-            <p>Pevný základ pro novou střechu i promyšlenou rekonstrukci.</p>
-          </article>
+        <div class="hero-note reveal">
+          <span class="hero-note__label">Publikovatelná realizace</span>
+          <p>Chata Větrný Jeníkov jako reálný materiálový základ celé prezentace.</p>
+        </div>
+      </div>
+    </section>
 
-          <article class="stage-card stage-card--secondary tilt-surface" data-tilt="5">
-            <p class="stage-card__label">Střešní vrstva</p>
-            <p class="stage-card__title">Krytina, skladba a návaznosti</p>
-            <p>Funkčnost střechy stojí na tom, jak na sebe jednotlivé vrstvy správně navazují.</p>
-          </article>
+    <section class="section-shell story-section" id="sluzby">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-kicker">Průběh a služby</p>
+          <h2>Každá vrstva má vlastní roli. Dohromady musí držet jako jeden celek.</h2>
+        </div>
+        <p>
+          Tato část ukazuje, jak Tesařství Jihlava skládá nosnou konstrukci, střešní vrstvu a finální
+          detail bez zbytečných mezičlánků nebo opakování stejné práce dvakrát.
+        </p>
+      </div>
 
-          <article class="stage-card stage-card--accent tilt-surface" data-tilt="5">
-            <p class="stage-card__label">Finální detail</p>
-            <p class="stage-card__title">Oplechování a odvod vody</p>
-            <p>Žlaby, svody a lemování završují výsledek, který má obstát v provozu i v čase.</p>
-          </article>
+      <div class="story-layout">
+        <figure class="story-visual reveal" data-story-frame>
+          <img
+            src="../shared/gallery/projekty/2024/chata-vetrny-jenikov/galerie/IMG_8595-HDR.jpg"
+            alt=""
+            data-story-image
+          >
+          <figcaption>
+            <span class="story-visual__label" data-story-label>Nosná konstrukce</span>
+            <strong data-story-title>Krov začíná přesným čtením stavby.</strong>
+            <span data-story-caption>Rozpětí, návaznosti a materiál se řeší podle skutečného místa.</span>
+          </figcaption>
+        </figure>
 
-          <div class="stage-note reveal">
-            <p class="stage-note__eyebrow">Přístup k realizaci</p>
-            <p>Každá část má vlastní roli. Společně musí fungovat jako jeden celek.</p>
+        <div class="story-copy-block">
+          <div class="story-steps">
+            <article
+              class="story-step reveal is-active"
+              data-story-step
+              data-story-image="../shared/gallery/projekty/2024/chata-vetrny-jenikov/galerie/IMG_8595-HDR.jpg"
+              data-story-label="Nosná konstrukce"
+              data-story-title="Krov začíná přesným čtením stavby."
+              data-story-caption="Rozpětí, návaznosti a materiál se řeší podle skutečného místa."
+            >
+              <span class="story-step__index">01</span>
+              <h3>Krovy a nosné dřevěné konstrukce</h3>
+              <p>Nové krovy, výměny poškozených částí a zásahy, kde je potřeba správně navázat staré i nové.</p>
+            </article>
+
+            <article
+              class="story-step reveal"
+              data-story-step
+              data-story-image="../shared/gallery/projekty/2024/chata-vetrny-jenikov/uvod/DJI_0462-HDR.jpg"
+              data-story-label="Střešní vrstva"
+              data-story-title="Střecha musí sedět jako celek."
+              data-story-caption="Krytina, skladba a odvětrání mají fungovat společně a bez improvizace."
+            >
+              <span class="story-step__index">02</span>
+              <h3>Střešní skladba a krytina</h3>
+              <p>Vrstva po vrstvě tak, aby střecha fungovala v provozu, dobře odváděla vodu a seděla celé stavbě.</p>
+            </article>
+
+            <article
+              class="story-step reveal"
+              data-story-step
+              data-story-image="../shared/gallery/projekty/2024/chata-vetrny-jenikov/galerie/IMG_8704-HDR.jpg"
+              data-story-label="Finální detail"
+              data-story-title="Konec rozhoduje stejně jako začátek."
+              data-story-caption="Lemování, oplechování a odvod vody dotahují celý výsledek do klidného finále."
+            >
+              <span class="story-step__index">03</span>
+              <h3>Klempířský detail a odvod vody</h3>
+              <p>Žlaby, svody, lemování a napojení, která nesmějí rušit vzhled ani funkci celé realizace.</p>
+            </article>
+          </div>
+
+          <div class="story-support reveal">
+            <p class="story-support__label">Další typické práce</p>
+            <ul class="story-support__list">
+              <li>Pergoly a přístřešky</li>
+              <li>Dřevěné doplňky kolem domu</li>
+              <li>Menší zahradní stavby</li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <div class="hero-ribbon" aria-hidden="true">
-        <div class="hero-ribbon__track">
-          <span>Krovy</span>
-          <span>Střešní krytiny</span>
-          <span>Klempířské prvky</span>
-          <span>Terasy a pergoly</span>
-          <span>Dřevostavby</span>
-          <span>Podhledy</span>
-          <span>Krovy</span>
-          <span>Střešní krytiny</span>
-          <span>Klempířské prvky</span>
-          <span>Terasy a pergoly</span>
-          <span>Dřevostavby</span>
-          <span>Podhledy</span>
-        </div>
-      </div>
     </section>
 
-    <section class="section-panel section-panel--light" id="sluzby">
-      <div class="section-heading reveal">
-        <div>
-          <p class="section-kicker">Služby</p>
-          <h2>Služby, které na sebe navazují.</h2>
-        </div>
-        <p>
-          Od první nosné konstrukce až po finální klempířské zakončení je důležité, aby každá část dávala smysl
-          sama o sobě i v celku celé stavby.
-        </p>
+    <section class="section-shell proof-section" id="duvody">
+      <div class="proof-media reveal">
+        <img src="../shared/gallery/projekty/2024/chata-vetrny-jenikov/uvod/IMG_8722-HDR.jpg" alt="">
       </div>
 
-      <div class="services-grid">
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">01</p>
-          <h3>Krovy a nosné dřevěné konstrukce</h3>
-          <p>Nové krovy, výměny poškozených částí i řešení konstrukčních návazností podle konkrétní stavby.</p>
-        </article>
-
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">02</p>
-          <h3>Střešní krytiny a skladba střechy</h3>
-          <p>Pokládka krytiny s ohledem na vrstvy střechy, odvětrání a to, co má dlouhodobě fungovat v provozu.</p>
-        </article>
-
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">03</p>
-          <h3>Klempířské prvky a detail střechy</h3>
-          <p>Žlaby, svody, lemování i precizní napojení detailů, které rozhodují o výsledku celé realizace.</p>
-        </article>
-
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">04</p>
-          <h3>Terasy, pergoly a zahradní stavby</h3>
-          <p>Dřevěné konstrukce pro exteriér s důrazem na pevnost, proporce a každodenní používání.</p>
-        </article>
-
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">05</p>
-          <h3>Menší dřevostavby a přístřešky</h3>
-          <p>Praktická řešení pro doplňkové stavby, které mají přirozeně navazovat na dům i okolní prostor.</p>
-        </article>
-
-        <article class="service-card tilt-surface reveal" data-tilt="5">
-          <p class="card-label">06</p>
-          <h3>Podhledy, obklady a dřevěné doplňky</h3>
-          <p>Čisté dokončení tam, kde má dřevo působit přesně, funkčně a bez zbytečných rušivých prvků.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-panel reasons" id="duvody">
-      <div class="section-heading reveal">
-        <div>
-          <p class="section-kicker">Důvody pro spolupráci</p>
-          <h2>Rozhoduje komunikace, návaznost a klid při realizaci.</h2>
-        </div>
-        <p>
-          Dobrá tesařská práce není jen o materiálu. Je také o tom, že se od začátku ví, jak má výsledek fungovat
-          a co je potřeba uhlídat v každém detailu.
-        </p>
-      </div>
-
-      <div class="reasons-grid">
-        <article class="reason-card reason-card--wide tilt-surface reveal" data-tilt="4">
-          <p class="reason-card__index">01</p>
-          <h3>Komunikace napřímo</h3>
-          <p>Komunikujete přímo se Stepanem Kvasnickou, tedy s člověkem, který řeší zakázku i její průběh na místě.</p>
-        </article>
-
-        <article class="reason-card tilt-surface reveal" data-tilt="4">
-          <p class="reason-card__index">02</p>
-          <h3>Detail v souvislostech</h3>
-          <p>Nejde jen o jednotlivou profesi, ale o návaznost krovu, krytiny, klempířských prvků a odvodu vody.</p>
-        </article>
-
-        <article class="reason-card tilt-surface reveal" data-tilt="4">
-          <p class="reason-card__index">03</p>
-          <h3>Čitelný postup</h3>
-          <p>Na začátku se ujasní rozsah, materiál i další krok, aby realizace měla pevný rámec a zbytečně se nevracela zpět.</p>
-        </article>
-
-        <article class="reason-card reason-card--wide tilt-surface reveal" data-tilt="4">
-          <p class="reason-card__index">04</p>
-          <h3>Přístup podle konkrétní stavby</h3>
-          <p>Jiný postup vyžaduje novostavba a jiný rekonstrukce. Důležité je navrhnout zásah tak, aby seděl domu i provozu.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-panel section-panel--accent" id="pristup">
-      <div class="section-heading reveal">
-        <div>
-          <p class="section-kicker">Typické realizace a přístup k zakázce</p>
-          <h2>Každá stavba má jiné zadání, dobrý postup ale zůstává čitelný.</h2>
-        </div>
-        <p>
-          Nejprve je potřeba pochopit místo, návaznosti a rozsah. Teprve potom dává smysl zvolit materiál,
-          detail a konkrétní postup realizace.
-        </p>
-      </div>
-
-      <div class="approach-layout">
-        <div class="approach-summary reveal">
-          <p class="approach-summary__label">Typické situace</p>
-          <ul class="approach-tags">
-            <li>Nový krov pro rodinný dům</li>
-            <li>Výměna krytiny a souvisejících detailů</li>
-            <li>Pergola, terasa nebo přístřešek</li>
-            <li>Dřevěné a klempířské doplnění stavby</li>
-          </ul>
-          <p class="approach-summary__text">
-            Cílem není dodat izolovanou část, ale celek, který bude dobře fungovat v návaznostech a obstojí i po letech používání.
+      <div class="proof-layout">
+        <div class="proof-copy reveal">
+          <p class="section-kicker">Proč spolupracovat</p>
+          <h2>Klidná komunikace, čitelný postup a detail bez improvizace.</h2>
+          <p>
+            Dobrá realizace nevypadá složitě. Složitost se má vyřešit předem, ne přenášet do každého
+            kroku na stavbě nebo do dalších oprav po dokončení.
           </p>
         </div>
 
-        <div class="approach-steps">
-          <article class="step-card tilt-surface reveal" data-tilt="4">
-            <p class="step-card__index">01</p>
-            <h3>Konzultace a zaměření</h3>
-            <p>Na začátku je důležité porozumět stavu konstrukce, požadavkům i tomu, co má na řešení navazovat.</p>
-          </article>
-
-          <article class="step-card tilt-surface reveal" data-tilt="4">
-            <p class="step-card__index">02</p>
-            <h3>Návrh řešení a materiálu</h3>
-            <p>Volba materiálu, skladby a detailů vychází z konkrétní stavby, ne z univerzální šablony.</p>
-          </article>
-
-          <article class="step-card tilt-surface reveal" data-tilt="4">
-            <p class="step-card__index">03</p>
-            <h3>Realizace na místě</h3>
-            <p>Provádění musí držet přesnost, návaznost i rytmus práce, aby výsledek působil pevně a čistě.</p>
-          </article>
-
-          <article class="step-card tilt-surface reveal" data-tilt="4">
-            <p class="step-card__index">04</p>
-            <h3>Dokončení a předání</h3>
-            <p>Smysl má až detail dotažený do konce, včetně zakončení, oplechování a celkového dojmu z realizace.</p>
-          </article>
-        </div>
-      </div>
-
-      <div class="case-grid">
-        <article class="case-card tilt-surface reveal" data-tilt="4">
-          <p class="card-label">Novostavby</p>
-          <h3>Nové krovy a nosné řešení</h3>
-          <p>Přehledný návrh konstrukce, který odpovídá dispozici domu i budoucím návaznostem střechy.</p>
-        </article>
-
-        <article class="case-card tilt-surface reveal" data-tilt="4">
-          <p class="card-label">Rekonstrukce</p>
-          <h3>Obnova střešního pláště</h3>
-          <p>Výměna nebo úprava střechy s ohledem na stávající konstrukci, detail a provoz domu během prací.</p>
-        </article>
-
-        <article class="case-card tilt-surface reveal" data-tilt="4">
-          <p class="card-label">Exteriér</p>
-          <h3>Pergoly, terasy a přístřešky</h3>
-          <p>Dřevěné konstrukce, které mají být příjemné na používání a zároveň pevné v dlouhodobém provozu.</p>
-        </article>
-
-        <article class="case-card tilt-surface reveal" data-tilt="4">
-          <p class="card-label">Detail</p>
-          <h3>Doplňky a klempířské návaznosti</h3>
-          <p>Řešení lemování, oplechování a napojení, které dotahuje výsledek nejen vizuálně, ale hlavně funkčně.</p>
-        </article>
+        <ol class="proof-list">
+          <li class="reveal">
+            <span>01</span>
+            <div>
+              <h3>Přímé jednání s jedním člověkem</h3>
+              <p>Komunikujete přímo se Stepanem Kvasnickou, tedy s člověkem, který řeší zakázku i její průběh na místě.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span>02</span>
+            <div>
+              <h3>Detail v souvislostech</h3>
+              <p>Neřeší se izolovaná část, ale návaznost krovu, krytiny, klempířských prvků a odvodu vody.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span>03</span>
+            <div>
+              <h3>Průběh bez zbytečné vrstvy navíc</h3>
+              <p>Rozsah, materiál i další krok mají být jasné předem, aby realizace držela rytmus a klid.</p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
-    <section class="section-panel section-panel--light contact" id="kontakt">
+    <section class="section-shell process-section" id="pristup">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-kicker">Přístup k zakázce</p>
+          <h2>Krátký rámec, který drží každou realizaci.</h2>
+        </div>
+        <p>
+          Od první návštěvy po dokončení jde o to, aby bylo od začátku jasné, co se řeší, v jakém pořadí
+          a kde je potřeba největší pečlivost.
+        </p>
+      </div>
+
+      <ol class="process-track">
+        <li class="reveal">
+          <span>01</span>
+          <h3>Prohlídka a zaměření</h3>
+          <p>Nejdřív je potřeba vidět stavbu, popsat skutečný stav a určit nejdůležitější návaznosti.</p>
+        </li>
+        <li class="reveal">
+          <span>02</span>
+          <h3>Návrh řešení</h3>
+          <p>Materiál, detail i rozsah prací se nastaví podle místa, ne podle univerzální šablony.</p>
+        </li>
+        <li class="reveal">
+          <span>03</span>
+          <h3>Realizace a předání</h3>
+          <p>Provádění stojí na přesnosti a čistém detailu, který bude dobře sloužit i po letech.</p>
+        </li>
+      </ol>
+
+      <p class="process-note reveal">
+        <strong>Typické zakázky:</strong> nové krovy, opravy střech, pergoly, přístřešky a dřevěné návaznosti kolem domu.
+      </p>
+    </section>
+
+    <section class="section-shell section-shell--light contact-section" id="kontakt">
       <div class="contact-layout">
         <div class="contact-callout reveal">
           <p class="section-kicker">Kontakt</p>
           <h2>Řešíte střechu, krov nebo dřevěnou konstrukci?</h2>
           <p>
-            Nejrychlejší je krátký telefon nebo e-mail s popisem toho, co potřebujete vyřešit.
-            Domluvíme další krok i rozsah prací.
+            Stačí krátký telefon nebo e-mail s popisem stavby. Domluvíme další krok, zaměření i to,
+            co má pro vaši realizaci skutečný význam.
           </p>
 
           <div class="contact-actions">
             <a class="button button--primary" href="tel:+420603176612">Zavolat</a>
-            <a class="button button--outline" href="mailto:info@tesarstvi-jihlava.cz">Napsat e-mail</a>
+            <a class="text-link" href="mailto:info@tesarstvi-jihlava.cz">Napsat e-mail</a>
           </div>
         </div>
 
@@ -342,10 +348,7 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="../shared/img/tesarstvi-jihlava.svg" alt="Tesařství Jihlava">
-      <p>
-        Tesařství Jihlava zůstává v centru všeho podstatného: přímé jednání, poctivé řemeslo a detail,
-        který dává stavbě pevný řád.
-      </p>
+      <p>Tesařství Jihlava drží v centru všeho podstatného přímou domluvu, poctivé řemeslo a detail, který má smysl.</p>
     </div>
 
     <div class="footer-meta">
@@ -369,4 +372,3 @@
   </footer>
 </body>
 </html>
-

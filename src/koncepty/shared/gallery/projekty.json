@@ -1,0 +1,14 @@
+{
+  "verze": 1,
+  "projekty": [
+    {
+      "rok": 2024,
+      "slug": "chata-vetrny-jenikov",
+      "nazev": "Chata Větrný Jeníkov",
+      "lokalita": "Větrný Jeníkov",
+      "stav": "foto-koncept-hotovy",
+      "projekt": "projekty/2024/chata-vetrny-jenikov/projekt.json",
+      "koncept": "../../06-chata-vetrny-jenikov/"
+    }
+  ]
+}
