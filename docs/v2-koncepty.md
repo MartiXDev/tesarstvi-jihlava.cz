@@ -2,9 +2,9 @@
 
 ## Ucel dokumentu
 
-Tento dokument popisuje pet nakodovanych konceptu pro novy web Tesarstvi Jihlava. Vsechny koncepty pouzivaji stejnou obsahovou kostru a stejna firemni fakta, aby bylo mozne hodnotit hlavne vizualni smer, tonalitu a narocnost zpracovani.
+Tento dokument popisuje sest nakodovanych konceptu pro novy web Tesarstvi Jihlava. Prvnich pet konceptu pouziva stejnou homepage kostru a stejna firemni fakta, sesty koncept ji doplnuje o foto-orientovanou referenci konkretni realizace a prvni vrstvu galerie projektu.
 
-## Spolecne pozadavky pro vsech pet konceptu
+## Spolecne pozadavky pro konceptovou sadu
 
 - pouze cesky obsah
 - pouziti SVG loga Tesarstvi Jihlava
@@ -15,6 +15,8 @@ Tento dokument popisuje pet nakodovanych konceptu pro novy web Tesarstvi Jihlava
 - zapati s logem MartiX a odkazem na `https://martix.dev`
 - responzivni zpracovani
 
+Prvnich pet konceptu bylo navrzeno jako homepage sada nad stejnou obsahovou kostrou. Koncept 06 ji doplnuje jako foto-orientovana projektova reference a proto ma zamerne odlisny rytmus stranky.
+
 ## Implementovane vystupy
 
 | Koncept | Slozka | Soubory | Charakter |
@@ -24,8 +26,9 @@ Tento dokument popisuje pet nakodovanych konceptu pro novy web Tesarstvi Jihlava
 | 03 Tmava kinematicka atmosfera | `src\koncepty\03-tmava-kinematicka-atmosfera\` | `index.html`, `styles.css` | dramaticky, kontrastni, atmosfericky |
 | 04 Material a reference | `src\koncepty\04-material-a-reference\` | `index.html`, `styles.css` | teply, remeslny, duveryhodny |
 | 05 Motion first showcase | `src\koncepty\05-motion-first-showcase\` | `index.html`, `styles.css`, `main.js` | nejdynamictejsi a nejodvaznejsi |
+| 06 Chata Vetrny Jenikov | `src\koncepty\06-chata-vetrny-jenikov\` | `index.html`, `styles.css` | foto-orientovana reference a prvni krok galerie |
 
-## Sdilena struktura homepage
+## Sdilena struktura puvodni homepage sady
 
 1. Hero
 2. Sluzby
@@ -118,6 +121,22 @@ Tento dokument popisuje pet nakodovanych konceptu pro novy web Tesarstvi Jihlava
 
 - nejvyssi implementacni narocnost
 - nejsnazsi cesta k predesignovani, pokud by chybel odstup
+
+## Koncept 06 - Chata Vetrny Jenikov
+
+**Cil:** Ukazat, jak muze Tesarstvi Jihlava prezentovat konkretní realizaci skrze realne fotografie, klidny editorial text a opakovatelnou galerijni vrstvu pro dalsi projekty.
+
+**Mood:**
+
+- fotograficka reference
+- klidny editorial rytmus
+- od celku stavby k detailu
+
+**Silne stranky:**
+
+- pracuje s realnymi fotografiemi misto abstraktni prezentace
+- otevira prakticky zaklad pro budouci galerii realizaci
+- vhodny doplnek k homepage konceptum, nikoliv jejich nahrada
 
 ## Strucne vyhodnoceni konceptu
 
